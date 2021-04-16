@@ -6,7 +6,7 @@ inputs:
   GH_TOKEN:
     description: 'GitHub access token with Repo scope'
     required: true
-    default: ${{ github.token }}
+    default: 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
 
   WAKATIME_API_KEY:
     description: 'Your Wakatime API Key'
@@ -45,7 +45,7 @@ inputs:
   SHOW_LINES_OF_CODE:
     required: false
     description: "Show the Total Lines of code written Badge till date"
-    default: "False"
+    default: "True"
 
   SHOW_LANGUAGE_PER_REPO:
     required: false
